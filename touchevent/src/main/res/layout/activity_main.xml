@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qf.touchevent.MyViewGroup1 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="#ced747"
+    tools:context="com.qf.touchevent.MainActivity">
+    
+    <com.qf.touchevent.MyView1
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="#f00"/>
+    
+    <com.qf.touchevent.MyViewGroup2
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="#71e4de">
+
+        <com.qf.touchevent.MyView2
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="#9fd971"/>
+
+    </com.qf.touchevent.MyViewGroup2>
+
+
+    <com.qf.touchevent.MyView3
+        android:id="@+id/view3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="#625fe4"/>
+</com.qf.touchevent.MyViewGroup1>

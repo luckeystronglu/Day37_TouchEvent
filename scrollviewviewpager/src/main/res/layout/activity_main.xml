@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.qf.scrollviewviewpager.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#f00">
+        
+        <View
+            android:layout_width="300dp"
+            android:layout_height="match_parent"/>
+
+        
+        <com.qf.scrollviewviewpager.MyViewPager
+            android:id="@+id/vp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="#fff"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+</HorizontalScrollView>
